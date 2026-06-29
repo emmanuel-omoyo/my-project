@@ -5,11 +5,11 @@ const decreaseBtn = document.getElementById("decrease-btn");
 let count = 0;
 
 const addCount = () => {
-  display.innerText = count++;
+  display.innerText = count += 1;
 };
 
 const subtractCount = () => {
-  display.innerText = count--;
+  display.innerText = count -= 1;
 };
 
 increaseBtn.addEventListener("click", addCount);
